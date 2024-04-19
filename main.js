@@ -29,7 +29,7 @@ function atualizaCronometro(){
         document.getElementById("seg"+i).textContent = calculaTempo(tempos[i])[3];
     }
   
-    }
+    
 }
 function calculaTempo(tempoObjetivo) {
     let tempoAtual = new Date();
